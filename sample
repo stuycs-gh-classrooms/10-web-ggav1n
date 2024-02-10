@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Project Sekai</title>
+</head>
+
+<h1>Project Sekai</h1>
+
+<body>
+
+<p>
+  Table of Contents:
+</p>
+
+<ul>
+
+  <li>
+  Gameplay
+  </li>
+  <li>
+  Characters
+  </li>
+  <li>
+  Cards
+  </li>
+  <li>
+  Songs
+  </li>
+
+
+</ul>
+
+<h2>Gameplay</h2>
+
+<p>
+  Project SEKAI includes multiple types of lives, the main two being Solo Lives and Multi Lives. To participate in a live, you will need to build a team using five cards of any of the 26 playable characters. There are four note types in game: flick notes, tap notes, hold notes, and trace notes.
+</p>
+
+<ul>
+
+  <li>
+    Solo Live:
+  </li>
+  <li>
+    Multi-Player:
+  </Li>
+</ul>
+
+<h2>Characters</h2>
+
+<p>
+  As mentioned, there are 26 playable characters in this game, each with their own unique cards. There are a total of seven unit groups in the game, with 4-6 characters in each group. Each group has their unique covers, relating to the theme they present. <br>
+  The groups are as following:
+  <ul>
+    <li> Virtual Singers: Hatsune Miku, Kagamine Rin, Kagamine Len, Megurine Luka, MEIKO, KAITO </li>
+    <p> This group covers vocaloid (AI) songs </p>
+    <li> Leo/Need: Hoshino Ichika, Tenma Saki, Mochizuki Honami, Shiho Hinomori</li>
+    <p> This group covers rock songs that use the piano, guitar, and/or piano </p>
+    <img src="https://static.wikia.nocookie.net/projectsekai/images/5/5e/Ln_Group_v2.png/revision/latest?cb=20230921164123">
+    <li> More More Jump: </li>
+    <p> This group covers idol songs. </p>
+    <li> Wonderlands x Showtime: </li>
+    <p> "An eccentric musical show unit, proclaiming each day wonderful and rushing out to meet it head on." </p>
+    <li> Vivid Bad Squad: </li>
+    <p> "A talented group of street artists who teamed up to surpass a legend.""</p>
+    <li> Nightcord at 25:00: </li>
+    <p> "A mysterious music circle that operates at 1:00 AM (25:00), and whose identities are shrouded in mystery."</p>
+  </ul>
+</p>
+
+<h2>Cards</h2>
+
+</body>
+
+
+</html>
