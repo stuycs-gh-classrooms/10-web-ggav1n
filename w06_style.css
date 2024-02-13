@@ -11,13 +11,13 @@ text-align: center;
 }
 
 p {
-font-size: 25px;
+font-size: 30px;
 font-weight: bold;
 color: lightsalmon;
 } 
 
 ul {
-font-size: 15px;
+font-size: 25px;
 list-style-type: square;
 color: navajowhite;
 }
@@ -27,6 +27,6 @@ color: thistle;
 }
 
 img {
-width: 400px;
-height: 400px;
+width: 300px;
+height: 300px;
 }
