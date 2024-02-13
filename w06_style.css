@@ -1,0 +1,32 @@
+html {
+background-color: lemonchiffon;
+font-family: "serif"
+}
+
+h1 {
+font-size: 45px;
+color: darksalmon;
+border: 5px dotted darkgrey;
+text-align: center;
+}
+
+p {
+font-size: 25px;
+font-weight: bold;
+color: #fff9d4;
+} 
+
+ul {
+font-size: 20px;
+list-style-type: square;
+color: white;
+}
+
+a {
+color: #719feb;
+}
+
+img {
+width: 400px;
+height: 340px;
+}
