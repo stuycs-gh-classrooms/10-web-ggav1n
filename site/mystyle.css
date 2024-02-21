@@ -5,12 +5,12 @@ html {
 body {
   width: 80%;
   margin: auto;
-  background-color: plum;
+  background-color: thistle;
   border-radius: 15px;  
 }
 nav {
   margin: auto;
-  background-color: thistle;
+  background-color: plum;
   font-size: 1.5em;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
