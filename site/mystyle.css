@@ -1,16 +1,16 @@
 html {
   font-size: 20px;
-  background-color: linen;
+  background-color: lavender;
 }
 body {
   width: 80%;
   margin: auto;
-  background-color: mistyrose;
+  background-color: plum;
   border-radius: 15px;  
 }
 nav {
   margin: auto;
-  background-color: papayawhip;
+  background-color: thistle;
   font-size: 1.5em;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
