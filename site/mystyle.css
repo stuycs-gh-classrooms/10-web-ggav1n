@@ -51,12 +51,12 @@ p {
   
 .picture {
   float: left;
+  padding-right: 10px
 }
 
 .text {
   text-align: left;
   margin-right: 2em;
-  padding-left: 1em;
 }
 .text0 {
   text-align: left;
