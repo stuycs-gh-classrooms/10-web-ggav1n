@@ -22,13 +22,14 @@ ul {
   text-align: center;
 }
 
-li {
+.other {
   display: inline;
   padding: 15px;
   font-family: copperplate;
 }
 
 .current {
+  display: inline;
   background-color: mistyrose;
   border-radius: 10px 10px 0 0;
   font-family: copperplate;
