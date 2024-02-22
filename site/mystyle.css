@@ -61,4 +61,7 @@ p {
   margin-right: 2em;
   font-style: italic;
 }
-  
+
+.l {
+  text-align: left;
+}
