@@ -43,6 +43,8 @@ p {
   font-size: 1.5 em
   overflow: auto;
   font-family: "georgia";
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
 }
   
 
