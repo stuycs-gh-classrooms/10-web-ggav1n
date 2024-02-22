@@ -48,6 +48,8 @@ p {
   border-bottom-right-radius: inherit;
 }
   
-
+picture {
+  float: left;
+}
   
   
