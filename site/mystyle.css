@@ -9,6 +9,7 @@ body {
   border-radius: 15px;  
 }
 nav {
+    padding: 70px 0;
   margin: auto;
   background-color: plum;
   font-size: 25px;
@@ -18,7 +19,6 @@ nav {
   border-bottom-right-radius: inherit;
 }
 ul {
-  padding: 70px 0;
   text-align: center;
 }
 
