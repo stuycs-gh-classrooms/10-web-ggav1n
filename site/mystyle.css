@@ -45,6 +45,7 @@ p {
   font-family: "georgia";
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
+  text-align: end;
 }
   
 
