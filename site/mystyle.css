@@ -16,11 +16,10 @@ nav {
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
-  text-align: center;
 }
 ul {
-  padding: 0;
-  text-align: left;
+  padding: 70px 0;
+  text-align: center;
 }
 
 li {
