@@ -66,5 +66,11 @@ p {
 
 .l {
   text-align: left;
-  margin-left: 20em
+  padding-left: 10px;
+  margin-left: 1em;
+}
+
+.i {
+  text-align: left;
+  margin-left: 20em;
 }
