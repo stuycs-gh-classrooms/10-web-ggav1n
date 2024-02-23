@@ -74,3 +74,6 @@ p {
   text-align: left;
   margin-left: 20em;
 }
+div {
+  display: block;
+}
