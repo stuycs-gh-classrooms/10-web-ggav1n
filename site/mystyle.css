@@ -77,6 +77,6 @@ p {
 .separate {
   width: 80%;
   margin: auto;
-  border-radius: 20px;
-  padding: 10px;
+  border-radius: 25px;
+  padding: 3em;
 }
