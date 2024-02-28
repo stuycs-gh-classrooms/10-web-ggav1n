@@ -12,13 +12,13 @@ body {
   padding: 3em;
 }
 nav {
-      height: 100%;
-      width: 20%;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: plum;
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: plum;
 }
 
 ul {
@@ -51,7 +51,7 @@ p {
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
 }
-  
+
 .picture {
   float: left;
   padding-right: 10px
