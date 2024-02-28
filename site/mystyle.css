@@ -74,6 +74,9 @@ p {
   text-align: left;
   margin-left: 20em;
 }
-div {
-  display: block;
+.separate {
+  width: 80%;
+  margin: auto;
+  border-radius: 20px;
+  padding: 10px;
 }
