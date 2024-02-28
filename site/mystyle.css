@@ -2,6 +2,8 @@ html {
   font-size: 20px;
   background-color: lavender;
 }
+
+
 body {
   width: 80%;
   margin: auto;
@@ -10,14 +12,15 @@ body {
   padding: 3em;
 }
 nav {
-  margin: auto;
-  background-color: plum;
-  font-size: 25px;
-  border-top-left-radius: inherit;
-  border-top-right-radius: inherit;
-  border-bottom-left-radius: inherit;
-  border-bottom-right-radius: inherit;
+      height: 100%;
+      width: 20%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: plum;
 }
+
 ul {
   padding: 0;
   text-align: center;
