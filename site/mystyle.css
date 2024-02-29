@@ -64,16 +64,16 @@ p {
   float: right;
   width: 25%;
   border-radius: 20px;
-  border: 5px solid #663399;
+  border: 3px solid #663399;
 }
 
 .text {
   text-align: left;
-  padding: 5px;
+  margin-right: 2em;
 }
 .text0 {
   text-align: left;
-  padding: 5px;
+  margin-right: 2em;
   font-style: italic;
 }
 
