@@ -76,13 +76,13 @@ p {
 
 .text {
   text-align: left;
-  margin-down: 5em;
-  margin-up: 5em
+  margin-down: 5px;
+  margin-up: 5px;
 }
 .text0 {
   text-align: left;
-  margin-down: 5em;
-  margin-up: 5em
+  margin-down: 5px;
+  margin-up: 5px;
   font-style: italic;
 }
 
