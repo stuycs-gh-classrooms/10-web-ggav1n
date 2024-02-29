@@ -49,9 +49,20 @@ p {
   border-bottom-right-radius: inherit;
 }
 
-.picture {
+.picture0 {
+  margin: auto;
+  padding: 10px;
   float: left;
-  padding-right: 10px
+  width: 25%;
+  border-radius: 20px;
+}
+
+.picture1 {
+  margin: auto;
+  padding: 10px;
+  float: right;
+  width: 25%;
+  border-radius: 20px;
 }
 
 .text {
