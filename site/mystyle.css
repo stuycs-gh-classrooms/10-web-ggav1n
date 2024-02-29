@@ -12,7 +12,7 @@ body {
 nav {
   margin: auto;
   background-color: plum;
-  font-size: 25px;
+  font-size: 30px;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
@@ -25,7 +25,7 @@ ul {
 
 .heading2 {
 text-align: center;
-font-size: 25px;
+font-size: 30px;
 font-weight: bold;
 color: #483D8B;
 }
@@ -46,7 +46,7 @@ h1 {
 }
 
 p {
-  font-size: 20px
+  font-size: 25px
   overflow: auto;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
