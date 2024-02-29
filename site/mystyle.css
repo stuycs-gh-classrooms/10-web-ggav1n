@@ -80,3 +80,11 @@ p {
   border-radius: 25px;
   padding: 1em;
 }
+
+.info {
+  margin: auto;
+width: 95%;
+background-color: plum;
+border-radius: 20px;
+overflow: auto;
+}
