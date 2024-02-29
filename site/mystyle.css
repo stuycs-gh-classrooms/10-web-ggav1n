@@ -126,3 +126,7 @@ p {
   margin: auto;
   border: 1px solid darkslateblue;
 }
+
+.link {
+  display: inline-block;
+}
