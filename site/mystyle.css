@@ -25,6 +25,8 @@ nav {
   width: 95%;
   border-radius: 20px;
   text-align: center;
+  border-style: solid;
+  border-color: darkslateblue;
 }
 
 }
