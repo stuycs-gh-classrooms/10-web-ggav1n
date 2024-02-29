@@ -114,6 +114,11 @@ p {
   margin-left: 1em;
 }
 
+.middlelist {
+  text-align: left;
+  margin-left: 20em;
+}
+
 .separate {
   width: 80%;
   margin: auto;
