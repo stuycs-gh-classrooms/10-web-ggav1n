@@ -141,5 +141,6 @@ p {
   color: midnightblue;
   margin: auto;
   border: 1px solid darkslateblue;
+  padding: 10px;
+  width: 50%;
 }
-
