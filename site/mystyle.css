@@ -1,4 +1,5 @@
 html {
+  font-size: 20px;
   background-color: lavender;
 }
 body {
@@ -9,10 +10,9 @@ body {
   padding: 3em;
 }
 nav {
-  font-size: 40px;
-  font-family: copperplate;
   margin: auto;
   background-color: plum;
+  font-size: 25px;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
@@ -25,7 +25,7 @@ ul {
 
 .heading2 {
 text-align: center;
-font-size: 40px;
+font-size: 25px;
 font-weight: bold;
 color: #483D8B;
 }
@@ -33,21 +33,25 @@ color: #483D8B;
 .other {
   display: inline;
   padding: 15px;
+  font-family: copperplate;
 }
 
 .current {
   display: inline;
   background-color: mistyrose;
   border-radius: 10px 10px 0 0;
+  font-family: copperplate;
 }
 
 h1 {
   text-align: center;
+  font-family: monaco;
 }
 
 p {
+  font-size: 20px
   overflow: auto;
-  font-family: georgia;
+  font-family: "georgia";
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
 }
@@ -71,12 +75,10 @@ p {
 }
 
 .text {
-  font-size: 25px;
   padding: 5px;
   text-align: left;
 }
 .text0 {
-  font-size: 25px;
   padding: 5px;
   text-align: left;
   font-style: italic;
