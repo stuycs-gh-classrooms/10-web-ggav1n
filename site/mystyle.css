@@ -39,9 +39,10 @@ color: #483D8B;
 
 .current {
   display: inline;
+  padding: 10px;
   background-color: mistyrose;
-  border-radius: 10px 10px 0 0;
   font-family: copperplate;
+  border-radius: 20px;
 }
 
 h1 {
