@@ -69,12 +69,11 @@ p {
 
 .text {
   text-align: left;
-  margin-right: 2em;
+  padding: 5px;
 }
 .text0 {
   text-align: left;
-  margin-right: 2em;
-  padding-left: 2em;
+  padding: 5px;
   font-style: italic;
 }
 
