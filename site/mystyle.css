@@ -75,12 +75,12 @@ p {
 }
 
 .text {
+  padding: 5px;
   text-align: left;
-  padding: 25px;
 }
 .text0 {
+  padding: 5px;
   text-align: left;
-  padding: 25px;
   font-style: italic;
 }
 
