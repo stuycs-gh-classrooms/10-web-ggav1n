@@ -3,11 +3,12 @@ html {
   background-color: lavender;
 }
 body {
-  width: 80%;
-  margin: auto;
-  background-color: thistle;
-  border-radius: 20px;
-  padding: 10px;
+    padding: 20px;
+    font-size: auto;
+    width: 67%;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
 }
 nav {
   margin: auto;
