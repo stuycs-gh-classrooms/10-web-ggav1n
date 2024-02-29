@@ -1,5 +1,4 @@
 html {
-  font-size: 20px;
   background-color: lavender;
 }
 body {
@@ -10,6 +9,7 @@ body {
   padding: 3em;
 }
 nav {
+  font-size: 40px;
   font-family: copperplate;
   margin: auto;
   background-color: plum;
@@ -71,10 +71,12 @@ p {
 }
 
 .text {
+  font-size: 25px;
   padding: 5px;
   text-align: left;
 }
 .text0 {
+  font-size: 25px;
   padding: 5px;
   text-align: left;
   font-style: italic;
