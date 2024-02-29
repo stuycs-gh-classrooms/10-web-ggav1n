@@ -1,5 +1,4 @@
 html {
-  font-family: monospace;
   background-color: lavender;
 }
 body {
@@ -10,6 +9,7 @@ body {
   padding: 3em;
 }
 nav {
+  font-family: copperplate;
   margin: auto;
   background-color: plum;
   font-size: 30px;
@@ -48,6 +48,7 @@ h1 {
 p {
   font-size: 25px
   overflow: auto;
+  font-family: georgia;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
 }
