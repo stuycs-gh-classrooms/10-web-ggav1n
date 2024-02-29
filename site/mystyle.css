@@ -14,10 +14,15 @@ nav {
   margin: auto;
   background-color: plum;
   font-size: 25px;
+  font-weight: bold;
   border-top-left-radius: inherit;
   border-top-right-radius: inherit;
   border-bottom-left-radius: inherit;
   border-bottom-right-radius: inherit;
+  padding: .5px;
+  width: 95%;
+  border-radius: 20px;
+}
 }
 ul {
   padding: 0;
