@@ -3,9 +3,9 @@ html {
   background-color: lavender;
 }
 body {
+    background-color: thistle;
     padding: 20px;
-    font-size: auto;
-    width: 67%;
+    width: 80%;
     margin: auto;
     margin-top: 30px;
     border-radius: 15px;
