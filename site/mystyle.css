@@ -109,7 +109,6 @@ p {
   text-align: center;
   font-size: 20px;
   color: midnightblue;
-  margin-down: 2em;
-  margin-up: 2em
+  margin: auto;
   border: 1px solid darkslateblue;
 }
