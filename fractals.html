@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -11,26 +12,33 @@
     <div>
       <h2>Koch Curve</h2>
       <p>
-        Default curve: <code>koch_curve(t, 4, 20)</code>
+        Default curve: <code>koch_curve(t, 6, 50)</code>
       </p>
       <img src="koch-basic.png" width="50%">
       <p>
-        This is the basic Koch Curve except as the depth increases the size decreases. <code>koch_curve(t, 6, 100)</code>
+        This Koch curve has a number of modifications:
+        <ul>
+          <li>The color of the Koch curve is now 'steelblue.'</li>
+          <li>The Koch curve forms a distinct pattern as it now turns 120 degrees right at the end of a cycle.</li>
+        </ul>
+        <code>tree(t, 6, 50)</code>
       </p>
-      <img src="koch.png" width="50%">
+      <img src="tree.png">
       <pre>
         <code>
-def koch_curve(t, depth, size):
-    if (depth == 1):
-        t.fd(size)
+def koch_curve(t, depth, length):
+    if depth == 1:
+        t.color('steelblue')
+        t.fd(length)
     else:
-        koch_curve(t, depth-1, size*0.6)
+        koch_curve(t, depth - 1, length)
         t.lt(60)
-        koch_curve(t, depth-1, size*0.6)
+        koch_curve(t, depth - 1, length)
         t.rt(120)
-        koch_curve(t, depth-1, size*0.6)
+        koch_curve(t, depth - 1, length)
         t.lt(60)
-        koch_curve(t, depth-1, size*0.6)
+        koch_curve(t, depth - 1, length)
+        t.rt(120)
         </code>
       </pre>
     </div>
@@ -40,11 +48,11 @@ def koch_curve(t, depth, size):
     <div>
       <h2>Sierpinski Triangle</h2>
       <p>
-        Defauly triangle: <code>sierpinski(t, 5, 200)</code>
+        Defauly triangle: <code>sierpinski(t, 5, 50)</code>
       </p>
       <img src="sierpinski-basic.png">
       <p>
-        This function does not actually draw the triangle at the base case, instead what we see is the result of the turtle moving to position itself correctly.<code>sierpinski(t, 6, 100)</code>
+        This function does not actually draw the triangle at the base case, instead what we see is the result of the turtle moving to position itself correctly.<code>sierpinski(t, 6, 50)</code>
       </p>
       <img src="sierpinski.png">
       <pre>
