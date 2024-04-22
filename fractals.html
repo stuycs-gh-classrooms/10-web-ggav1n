@@ -19,13 +19,14 @@
         This Koch curve has a number of modifications:
         <ul>
           <li>The color of the Koch curve is now 'steelblue.'</li>
-          <li>The Koch curve forms a distinct pattern as it now turns 120 degrees right at the end of a cycle.</li>
+          <li>The Koch curve forms a distinct pattern as it now turns a random multiple of 60 degrees right at the end of a cycle.</li>
         </ul>
         <code>tree(t, 6, 50)</code>
       </p>
       <img src="tree.png">
       <pre>
         <code>
+y = random.randrange(20)
 def koch_curve(t, depth, length):
     if depth == 1:
         t.color('steelblue')
@@ -38,19 +39,26 @@ def koch_curve(t, depth, length):
         koch_curve(t, depth - 1, length)
         t.lt(60)
         koch_curve(t, depth - 1, length)
-        t.rt(120)
+        t.rt(60 * y)
         </code>
       </pre>
     </div>
 
+    <hr>
+
     <div>
       <h2>Sierpinski Triangle</h2>
       <p>
-        Defauly triangle: <code>sierpinski(t, 5, 50)</code>
+        Default triangle: <code>sierpinski(t, 5, 50)</code>
       </p>
       <img src="sierpinski-basic.png">
       <p>
-        This function does not actually draw the triangle at the base case, instead what we see is the result of the turtle moving to position itself correctly.<code>sierpinski(t, 6, 50)</code>
+        This Sierpinski Triangle has a number of modifications:
+        <ul>
+          <li>Instead of going forwards, the turtle draws triangles outlining the original triangles instead of in the original triangle.</li>
+          <li>The Sierpinski Triangle no longer draws the first leg of the triangle.</li>
+        </ul>
+        <code>tree(t, 6, 50)</code>
       </p>
       <img src="sierpinski.png">
       <pre>
@@ -71,6 +79,8 @@ def sierpinski(t, depth, size, scale_factor=1):
         </code>
       </pre>
     </div>
+
+    <hr>
 
     <div>
       <h2>Trees</h2>
