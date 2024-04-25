@@ -1,1 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<link href="fractals.css" rel="stylesheet">
+<title>Modded Fractals!</title>
+</head>
+
+<body>
+<h1>Modded Fractals</h1>
+
+<br> 
+  
+<div class="koch_curve">
+<p class="heading">
+Koch Curve
+</p>
+ 
+<code class="coded">koch_curve(t, 4, 20)</code>
+<br>
+<img src="N/A" alt="normal koch curve" id="img">
+<br>
+<p class="text">
+Basic Koch Curve
+</p>
+
+<code class="text">modified_koch_curve(t, 4, 25)</code>
+<br>
+<img src="N/A" alt="modified koch curve" id="img">
+<br>
+<p class="text">
+My modified version of the Koch Curve includes the following modificaitons:
+</p>
+<ul>
+<li class="textlist">At the end of each cycle, it now turns a fixed random multiple of 60 to create more interesting patterns.</li>
+<li class="textlist">The Koch Curve is now blue!</li>
+</ul>
+<pre class="coded"><code>
+y = random.randrange(20)
+def modified_koch_curve(t, depth, length):
+    if depth == 1:
+        t.color('steelblue')
+        t.fd(length)
+    else:
+        koch_curve(t, depth - 1, length)
+        t.lt(60)
+        koch_curve(t, depth - 1, length)
+        t.rt(120)
+        koch_curve(t, depth - 1, length)
+        t.lt(60)
+        koch_curve(t, depth - 1, length)
+        t.rt(60 * y)
+</code></pre>
+</div>
+
+<br>
+
+<div class = "tree">
+<p class="heading">
+Tree
+</p>
+
+<code class="text">tree(t, 4, 50, 20)</code>
+<br>
+<img src="N/A" alt="normal tree" id="img">
+<br>
+<p class="text">
+Basic Tree
+</p>
+
+<code class="text">modified_tree(t, 4, 50, 20)</code>
+<br>
+<img src="fractalsimg3.png" alt="Tree: Modified" id="img">
+<br>
+<p class="text">
+My modified version of the Tree is meant to be a tree representing the four seasons and includes the following modifications:
+</p>
+<ul>
+<li class="textlist">The tree is now shaded! The branches on top are now green to represent leaves, and each successive stroke has a different color to represent the realistic colors of trees.</li>
+<li class="textlist">The tree has a different pattern now! It moves back a random amount (a random number + size) to create one side of a tree!</li>
+</ul>
+<pre class="coded"><code>
+def modified_tree(t, depth, size, angle):
+    x = random.randrange(20)
+    y = depth
+    if depth == 0:
+        t.pencolor("green")
+        t.fd(size)
+        t.bk(size + x)
+    else:
+        t.pencolor("saddlebrown")
+        t.fd(size)
+        t.rt(angle)
+        t.pencolor("brown")
+        tree(t, depth-1, size, angle)
+        t.pencolor("sandybrown")
+        t.lt(2 * angle)
+        tree(t, depth-1, size, angle)
+        t.pencolor("chocolate")
+        t.rt(angle)
+        t.bk(size + x)
+</code></pre>
+</div>
+
+<br>
+
+<div class = "sierpinskitriangle">
+<p class="heading">
+Sierpinski Triangle
+</p>
+
+<code class="text">sierpinski(t, 5, 200)</code>
+<br>
+<img src="N/A" alt="basic sierpinski triangles" id="img">
+<br>
+<p class="text">
+Basic Sierpinski Triangle
+</p>
+
+<code class="text">modified_sierpinski(t, 5, 200)</code>
+<br>
+<img src="fractalsimg5.png" alt="Sierpinski Triangle: Modified" id="img">
+<br>
+<p class="text">
+My modified version of the Sierpinski Triangle is meant to be a star and includes the following modifications:
+</p>
+<ul>
+<li class="textlist">The Sierpinski Triangle now outlines the original triangle on the outside instead of creating triangles on the inside.</li>
+<li class="textlist">To create a sense of depth and to create a more interesting pattern, now the the first stroke is not drawn.</li>
+</ul>
+<pre class="text"><code>
+def modified_sierpinski(t, depth, size):
+    x = random.randrange(20)
+    if depth == 1:
+        t.lt(60)
+        t.pu()
+        t.bk(size)
+        t.rt(120)
+        t.pd()
+        t.bk(size)
+        t.rt(120)
+        t.bk(size)
+        t.rt(180)
+    else:
+        sierpinski(t, depth-1, size/2)
+        t.fd(size/2)
+        sierpinski(t, depth-1, size/2)
+        t.bk(size/2)
+        t.lt(60)
+        t.fd(size/2)
+        t.rt(60)
+        sierpinski(t, depth-1, size/2)
+        t.rt(120)
+        t.fd(size/2)
+        t.lt(120)
+</code></pre>
+</div>
+
+</body>
+</html>
 
