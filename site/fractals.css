@@ -1,1 +1,77 @@
+html {
+font-family: cabin;
+height: 100%;
+}
 
+body {
+height: 100%;
+background: linear-gradient(to top, #696969, #2F4F4F);
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+h1 {
+ margin: auto;
+ text-align: center;
+ width: 95%;
+ font-size: 35px;
+ font-weight: bold;
+ background-color: #acdcee;
+ color: #FFFFF0;
+}
+
+.heading {
+text-align: center;
+font-size: 30px;
+font-weight: bold;
+color: #FFFFFF;
+}
+
+.text {
+padding: 5px;
+text-align: center;
+font-size: 20px;
+color: #FFFAF0;
+}
+
+.list {
+list-style-type: "kannada";
+font-size: 20px;
+color: #FFFAF0;
+}
+
+.coded {
+padding: 5px;
+text-align: center;
+font-size: 25px;
+color: #FFFFF0;
+}
+
+.kochcurve {
+margin: auto;
+width: 90%;
+background-color: #778899;
+border-radius: 20px;
+overflow: auto;
+}
+
+.tree {
+margin: auto;
+width: 90%;
+background-color: #778899;
+border-radius: 20px;
+overflow: auto;
+}
+
+.sierpinskitriangle {
+margin: auto;
+width: 90%;
+background-color: #778899;
+border-radius: 20px;
+overflow: auto;
+}
+
+#img {
+margin: auto;
+padding: 10px;
+}
