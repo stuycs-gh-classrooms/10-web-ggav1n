@@ -37,7 +37,7 @@ My modified version of the Koch Curve includes the following modificaitons:
 <li class="list">At the end of each cycle, it now turns a fixed random multiple of 60 to create more interesting patterns.</li>
 <li class="list">The Koch Curve is now blue!</li>
 </ul>
-<pre class="coded"><code>
+<class="coded"><code>
 y = random.randrange(20)
 def modified_koch_curve(t, depth, length):
     if depth == 1:
@@ -76,7 +76,7 @@ Basic Tree
 <img src="modified_tree.jpg" alt="Tree: Modified" id="img">
 <br>
 <p class="text">
-My modified version of the Tree is meant to be a tree representing the four seasons and includes the following modifications:
+My modified version of the Tree includes the following modifications:
 </p>
 <ul>
 <li class="list">The tree is now shaded! The branches on top are now green to represent leaves, and each successive stroke has a different color to represent the realistic colors of trees.</li>
@@ -102,7 +102,7 @@ def modified_tree(t, depth, size, angle):
         t.pencolor("chocolate")
         t.rt(angle)
         t.bk(size + x)
-</code></pre>
+</code>
 </div>
 
 <br>
@@ -125,13 +125,13 @@ Basic Sierpinski Triangle
 <img src="modified_sierpinski.jpg" alt="Sierpinski Triangle: Modified" id="img">
 <br>
 <p class="text">
-My modified version of the Sierpinski Triangle has the following modifications:
+My modified version of the Sierpinski Triangle includes the following modifications:
 </p>
 <ul>
 <li class="list">The Sierpinski Triangle now outlines the original triangle on the outside instead of creating triangles on the inside.</li>
 <li class="list">To create a sense of depth and to create a more interesting pattern, now the the first stroke is not drawn.</li>
 </ul>
-<pre class="coded"><code>
+<class="coded"><code>
 def modified_sierpinski(t, depth, size):
     x = random.randrange(20)
     if depth == 1:
@@ -156,7 +156,7 @@ def modified_sierpinski(t, depth, size):
         t.rt(120)
         t.fd(size/2)
         t.lt(120)
-</code></pre>
+</code>
 </div>
 
 </body>
